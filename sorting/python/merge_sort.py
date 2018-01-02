@@ -49,11 +49,13 @@ def merge_sort(array, l, r):
 	#As long as the array has more than one element, divide it in two and recursively call merge_sort and then merge
 	if l < r:
 		m = (l+r)/2
-		
-		merge_sort(array, l, m)
-		merge_sort(array, m+1, r)
+
+		array = merge_sort(array, l, m)
+		array = merge_sort(array, m+1, r)
 
 		merge(array, l, m, r)
+
+	return array
 
 if __name__ == '__main__':
 	import numpy as np
@@ -61,6 +63,6 @@ if __name__ == '__main__':
 	n = 100
 	array = np.random.randint(100, size=n)
 	
+	sorted_array = merge_sort(array.copy(), 0, n-1)
 	print 'Original:', array
-	merge_sort(array, 0, n-1)
-	print 'Sorted:', array
+	print 'Sorted:', sorted_array

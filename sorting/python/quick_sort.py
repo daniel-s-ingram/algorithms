@@ -2,25 +2,26 @@
 from swap import swap
 
 def partition(array, l, r):
-	p = array[r]
-	j = l-1
+	if l <= r:
+		p = array[r]
+		j = l
 
-	for i in xrange(l, r):
-		if array[i] < p:
-			j = j+1
-			swap(array, i, j)
+		for i in xrange(l, r):
+			if array[i] < p:
+				swap(array, i, j)
+				j = j+1
 
-	if array[r] < array[j+1]:
-		swap(array, j+1, r)
-
-	return j+1
+		swap(array, j, r)
+		return j
 
 def quick_sort(array, l, r):
 	if l < r:
 		p = partition(array, l, r)
 
-		quick_sort(array, l, p-1)
-		quick_sort(array, p+1, r)
+		array = quick_sort(array, l, p-1)
+		array = quick_sort(array, p+1, r)
+
+	return array
 
 if __name__ == '__main__':
 	import numpy as np
@@ -28,6 +29,6 @@ if __name__ == '__main__':
 	n = 100
 	array = np.random.randint(100, size=n)
 	
+	sorted_array = quick_sort(array.copy(), 0, n-1)
 	print 'Original:', array
-	quick_sort(array, 0, n-1)
-	print 'Sorted:', array
+	print 'Sorted:', sorted_array
