@@ -1,0 +1,30 @@
+Insert W       			WMason Lee Slate
+Insert h       			WhMason Lee Slate
+Insert a       			WhaMason Lee Slate
+Insert t       			WhatMason Lee Slate
+Replace M with  		What ason Lee Slate
+Copy a         			What ason Lee Slate
+Insert         			What a son Lee Slate
+Insert h       			What a hson Lee Slate
+Replace s with o		What a hoon Lee Slate
+Copy o         			What a hoon Lee Slate
+Insert d       			What a hoodn Lee Slate
+Insert a       			What a hoodan Lee Slate
+Copy n         			What a hoodan Lee Slate
+Insert g       			What a hoodang Lee Slate
+Replace   with a		What a hoodangaLee Slate
+Replace L with b		What a hoodangabee Slate
+Replace e with l		What a hoodangable Slate
+Copy e         			What a hoodangable Slate
+Copy           			What a hoodangable Slate
+Insert n       			What a hoodangable nSlate
+Insert i       			What a hoodangable niSlate
+Insert g       			What a hoodangable nigSlate
+Insert h       			What a hoodangable nighSlate
+Replace S with t		What a hoodangable nightlate
+Replace l with m		What a hoodangable nightmate
+Copy a         			What a hoodangable nightmate
+Replace t with r		What a hoodangable nightmare
+Copy e         			What a hoodangable nightmare
+
+Minimum cost: 27
