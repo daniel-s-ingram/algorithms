@@ -29,10 +29,9 @@ counting_times = [0]*n_powers
 file = open('README.md', 'w')
 file.write('|n|')
 for i in xrange(n_powers):
-	if i is not n_powers-1:
-		file.write(str(n_elements[i]) +'|')
+	file.write(str(n_elements[i]) +'|')
 
-file.write('\r\n\n')
+file.write('\r\n')
 
 file.write('|---:|')
 for _ in xrange(n_powers):
