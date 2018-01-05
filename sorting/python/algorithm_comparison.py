@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: latin-1 -*-
+# -*- coding: utf-8 -*-
 import numpy as np
 import matplotlib.pyplot as plt
 from timeit import timeit
@@ -11,7 +11,7 @@ from counting_sort import counting_sort
 
 #Converts to a more readable scientific notation with formatting for .md superscript
 def readable_sn(sn):
-	sn = '%e' % sn
+	sn = '%.2e' % sn
 	base, exponent = sn.split('e')
 	return (base + '×10<sup>%s</sup>' % exponent)
 

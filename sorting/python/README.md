@@ -1,8 +1,8 @@
 |n|10|100|1000|
 
 |---:|:---:|:---:|:---:|:---:|
-|**Selection sort**|3.385544×10<sup>-05</sup> s|1.842976×10<sup>-03</sup> s|1.218688×10<sup>-01</sup> s|1.082708×10<sup>+01</sup> s|
-|**Insertion sort**|2.813339×10<sup>-05</sup> s|1.580000×10<sup>-03</sup> s|1.574981×10<sup>-01</sup> s|1.603866×10<sup>+01</sup> s|
-|**Merge sort**|4.196167×10<sup>-05</sup> s|3.838539×10<sup>-04</sup> s|5.053997×10<sup>-03</sup> s|6.413198×10<sup>-02</sup> s|
-|**Quick sort**|2.813339×10<sup>-05</sup> s|2.961159×10<sup>-04</sup> s|4.851103×10<sup>-03</sup> s|1.012928×10<sup>-01</sup> s|
-|**Counting sort**|3.886223×10<sup>-05</sup> s|9.703636×10<sup>-05</sup> s|7.719994×10<sup>-04</sup> s|7.880926×10<sup>-03</sup> s|
+|**Selection sort**|4.29×10<sup>-05</sup> s|1.81×10<sup>-03</sup> s|1.22×10<sup>-01</sup> s|1.08×10<sup>+01</sup> s|
+|**Insertion sort**|3.70×10<sup>-05</sup> s|1.76×10<sup>-03</sup> s|1.62×10<sup>-01</sup> s|1.57×10<sup>+01</sup> s|
+|**Merge sort**|5.29×10<sup>-05</sup> s|3.88×10<sup>-04</sup> s|5.08×10<sup>-03</sup> s|6.37×10<sup>-02</sup> s|
+|**Quick sort**|2.79×10<sup>-05</sup> s|2.86×10<sup>-04</sup> s|4.56×10<sup>-03</sup> s|1.04×10<sup>-01</sup> s|
+|**Counting sort**|3.89×10<sup>-05</sup> s|9.30×10<sup>-05</sup> s|7.72×10<sup>-04</sup> s|8.36×10<sup>-03</sup> s|
